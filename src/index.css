@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+*{
+    /* margin:0; */
+    /* padding:0; */
+    box-sizing:border-box;
+}
+:root{
+    --background-color:#0B0F1A;
+    --cards:#161D2D;
+    --primary-purple:#7C5CFF;
+    --light-purple:#B8A9FF;
+    --main-text:#FFFFFF;
+    --secondary-text:#A0A6BA;
+    --rating-star:#FFC107;
+    --error:#FF5C68;
+}
+body{
+    min-height:100vh;
+    background-color:var(--background-color);
+}
